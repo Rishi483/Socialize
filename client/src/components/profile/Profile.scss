@@ -1,0 +1,87 @@
+.Profile{
+    .container{
+        display: flex;
+        gap: 20px;
+    }
+    .left-part{
+        flex: 2;
+    }
+    .right-part{
+        flex: 1;
+        height: 400px;
+        margin-top: 20px;
+    }
+    .profile-card{
+        border: 1px solid var(--border-color);
+        border-radius: 6px;
+        text-align: center;
+        padding: 40px;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        p{
+            margin: 5px;
+        }
+        .user-img{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+        }
+        .user-name,.follower-info{
+            margin-top: 12px;
+        }
+        .follower-info{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+        }
+        .follow,.update-profile{
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .btn-primary-red{
+           font-size: 0.7rem;
+        }
+    }
+    
+}
+.popup-content{
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    
+}
+.modal {
+    font-size: 12px;
+}
+.header {
+width: 100%;
+font-size: 18px;
+text-align: center;
+padding: 5px;
+}
+.content {
+width: 100%;
+padding: 10px 5px;
+}
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+}
+.close {
+cursor: pointer;
+position: absolute;
+display: block;
+padding: 2px 5px;
+line-height: 20px;
+right: -10px;
+top: -10px;
+font-size: 24px;
+background: #ffffff;
+border-radius: 18px;
+border: 1px solid #cfcece;
+}

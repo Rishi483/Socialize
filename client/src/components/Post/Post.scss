@@ -1,0 +1,72 @@
+.Post{
+    border: 1px solid var(--border-color);
+    margin-top: 20px;
+    border-radius: 6px;
+    
+    .redc{
+        color: red;
+        cursor: pointer;
+    }
+    .blackc{
+        color: black;
+        cursor: pointer;
+    }
+    .heading{
+        display: flex;
+        align-items: center;
+       justify-content: space-between;
+       box-shadow: 0 0 15px -2px rgb(0 0 0 / 0.2);
+        .owner-info{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            height: 60px;
+            padding: 20px;
+        }
+        .info-icon{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 12px;
+            cursor: pointer;
+        }
+    }
+    .content{
+        height: 600px;
+        padding: 1px;
+        img{
+            width: 100%;
+            border-radius: 4px;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .footer{
+        box-shadow: 0 0 15px -2px rgb(0 0 0 / 0.2);
+        padding: 20px;
+        .middle{
+            display: flex;
+            margin: 0;
+            padding: 0;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .like{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            .icon{
+                font-size: 1.5rem;
+            }
+        }
+        .caption{
+            margin-top: 12px;
+        }
+        .time-ago{
+            margin-top: 12px;
+            color: #aaa;
+        }
+    }
+}

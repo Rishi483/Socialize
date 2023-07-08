@@ -1,0 +1,15 @@
+.follower{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    
+    .follow-link{
+        color: var(--accent-color);
+    }
+    .user-info{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+}
